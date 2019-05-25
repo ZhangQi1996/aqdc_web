@@ -26,13 +26,13 @@
 					<Icon type="ios-information-circle-outline" />
 					空气质量信息
 				</MenuItem>
-				<MenuItem name="predict" :to="{name:'Vpredict'}">
-					<Icon type="ios-pulse" />
-					空气质量预测
-				</MenuItem>
 				<MenuItem name="mana" :to="{name:'Vmana'}">
 					<Icon type="md-settings" />
 					数据管理
+				</MenuItem>
+				<MenuItem name="predict" :to="{name:'Vpredict'}">
+					<Icon type="ios-pulse" />
+					空气质量预测
 				</MenuItem>
 				<div class='header-nav-search'>
 					<AutoComplete
